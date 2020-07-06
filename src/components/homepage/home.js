@@ -3,7 +3,6 @@ import './home.css'
 import Imageslider from '../corousel/corousel'
 import Lefthandshop from '../leftsideshop/leftsideshop'
 import Righthandshop from '../righthandshop/righthandshop'
-import Contacts from '../contacts/contacts'
 
 let Home =()=>{
     let dets = {
@@ -27,9 +26,6 @@ let Home =()=>{
           <Lefthandshop details={dets} />
           <Righthandshop details = {det} />
         </div>  
-        <div id="contacts" className = "contact">
-          <Contacts />
-        </div>
         </>
     )
 }

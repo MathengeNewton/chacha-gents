@@ -56,10 +56,11 @@ let Footer =()=>{
         <Card style={{ width: '18rem' }}>
             <Card.Header>Extras</Card.Header>
                 <ListGroup variant="flush">
-                <a href="/terms" style={link}><ListGroup.Item>Brands</ListGroup.Item></a>
-                <a href="/terms" style={link}><ListGroup.Item>Gifts</ListGroup.Item></a>
-                <a href="/terms" style={link}><ListGroup.Item>Offers</ListGroup.Item></a>
+                <a href="/terms" style={link}><ListGroup.Item>Best Brands</ListGroup.Item></a>
+                <a href="/terms" style={link}><ListGroup.Item>Gift items</ListGroup.Item></a>
+                <a href="/terms" style={link}><ListGroup.Item>sweet Offers</ListGroup.Item></a>
                 <a href="/terms" style={link}><ListGroup.Item>Get your fit</ListGroup.Item></a>
+                <a href="/terms" style={link}><ListGroup.Item>Newest staff</ListGroup.Item></a>
             </ListGroup>
         </Card>
        

@@ -11,32 +11,36 @@ let Topnav = () =>{
 return(
     
   <Navbar collapseOnSelect expand="lg" bg="light" variant="light" style={{marginBottom:"2%"}} sticky="top">
-  <Navbar.Brand href="#home" style={imagestyle}>
+  <Navbar.Brand href="/" style={imagestyle}>
       <img      
         alt=""
-        src="/images/logo.jpg"
-        width="70"
-        height="70"
+        src="/images/casuals/logotransparent.png"
+        width="90"
+        height="90"
         className="d-inline-block align-top"
       />{' '}
       </Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-  <Navbar.Collapse id="responsive-navbar-nav">
+  <Navbar.Collapse id="responsive-navbar-nav" style={{textTransform:'uppercase',fontWeight:'bold'}}>
     <Nav className="mr-auto">
       <Nav.Link href="/">Home</Nav.Link>
-      <Nav.Link href="#shops">Our Location</Nav.Link>
-      <NavDropdown title="Product Categories" id="collasible-nav-dropdown">
-        <NavDropdown.Item href="/chacha-gents/suits">Suits</NavDropdown.Item>
+      <Nav.Link href="#shops">Location</Nav.Link>
+      <Nav.Link href="/chacha-gents/wedding wear">Wedding wear</Nav.Link>
+      <Nav.Link href="/chacha-gents/official wear">official Wear</Nav.Link>
+      <NavDropdown title="Other Categories" id="collasible-nav-dropdown">
+        <NavDropdown.Item href="/chacha-gents/suits">Jackets</NavDropdown.Item>
         <NavDropdown.Divider />
-        <NavDropdown.Item href="/chacha-gents/casualwear">Casual wear</NavDropdown.Item>
+        <NavDropdown.Item href="/chacha-gents/accesories">Shirts</NavDropdown.Item>
+        <NavDropdown.Divider />
+        <NavDropdown.Item href="/chacha-gents/Pants">Pants</NavDropdown.Item>
         <NavDropdown.Divider />
         <NavDropdown.Item href="/chacha-gents/shoes">Shoes</NavDropdown.Item>
         <NavDropdown.Divider />
         <NavDropdown.Item href="/chacha-gents/accesories">Accesories</NavDropdown.Item>
-      </NavDropdown>
+      </NavDropdown>      
     </Nav>    
     <Nav>
-      <Nav.Link href="/#contacts">Leave a message</Nav.Link>
+      <Nav.Link href="/chacha-gents/contacts">Contacts</Nav.Link>
     </Nav>
   </Navbar.Collapse>
 </Navbar>

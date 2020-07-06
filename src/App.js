@@ -7,7 +7,9 @@ import Footer from './components/footer/footer';
 import Suits from './components/suits/suits';
 import Shoes from './components/shoes/shoes';
 import Accesories from './components/accesories/accesories';
-import Casual from './components/casual/casual'
+import Casual from './components/casual/casual';
+import Weddings from './components/weddings/weddings'
+import ContactPage from './components/contactpage/contacts';
 import {BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
@@ -29,8 +31,14 @@ function App() {
           <Route path="/chacha-gents/accesories" exact>
             <Accesories />
           </Route>
-          <Route path="/chacha-gents/casualwear" exact>
+          <Route path="/chacha-gents/official wear" exact>
             <Casual />
+          </Route>
+          <Route path="/chacha-gents/contacts" exact>
+            <ContactPage />
+          </Route>
+          <Route path="/chacha-gents/wedding wear" exact>
+            <Weddings />
           </Route>
         </Switch>
         </Router> 
