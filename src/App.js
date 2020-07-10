@@ -14,30 +14,30 @@ import {BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   
-  return (
+  return ( 
     <div className="App">
-      <Topnav /> 
+    <Topnav /> 
       <Router>
         <Switch>
           <Route path="/" exact>
             <Home />
           </Route>
-          <Route path="/chacha-gents/suits" exact>
+          <Route path="/suits" exact>
             <Suits />
           </Route>
-          <Route path="/chacha-gents/shoes" exact>
+          <Route path="/shoes" exact>
             <Shoes />
           </Route>
-          <Route path="/chacha-gents/accesories" exact>
+          <Route path="/accesories" exact>
             <Accesories />
           </Route>
-          <Route path="/chacha-gents/official wear" exact>
+          <Route path="/casual wear" exact>
             <Casual />
           </Route>
-          <Route path="/chacha-gents/contacts" exact>
+          <Route path="/contacts" exact>
             <ContactPage />
           </Route>
-          <Route path="/chacha-gents/wedding wear" exact>
+          <Route path="/wedding wear" exact>
             <Weddings />
           </Route>
         </Switch>

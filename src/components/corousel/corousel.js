@@ -18,7 +18,7 @@ const CarouselPage = () => {
             <MDBView>
               <img
                 className="d-block w-100"
-                src="/images/CHACHA2.png"
+                src="/images/panel1.png"
                 alt="First slide"
               />
             </MDBView>
@@ -27,7 +27,7 @@ const CarouselPage = () => {
             <MDBView>
               <img
                 className="d-block w-100"
-                src="/images/CHACHA2.png"
+                src="/images/panel.png"
                 alt="Second slide"
               />
             </MDBView>

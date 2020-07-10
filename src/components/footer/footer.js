@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
 import CardDeck from 'react-bootstrap/CardDeck';
-import Foot from './foot';
+
 
 
 let Footer =()=>{
@@ -19,16 +19,11 @@ let Footer =()=>{
         textDecoraton: 'none',
         color:'black'
     }
-    const footer ={
-        marginTop: '5%',
-        width:'90%',
-        alignSelf : 'center'
-    }
+ 
     return(
-<Navbar expand="lg" variant="light" bg="light" sticky="bottom" style={footerstyle}>
+<Navbar expand="lg" className="footer" variant="light" bg="light" sticky="bottom" style={footerstyle}>
   <Container>
   <CardDeck>
-    
         <Card>
         <Card.Img 
             variant="top" 
@@ -66,8 +61,6 @@ let Footer =()=>{
        
     </CardDeck>
   </Container>
-  <hr style={footer}/>
-  <Foot />
 </Navbar>
     )
 }

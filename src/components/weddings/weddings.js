@@ -54,12 +54,12 @@ const Accesories = () => {
     </Row>
     <Row>
     <Col>
-    <Image style={{width:'90%',margin:'10%'}} src="/images/weddings/chacha12.png" rounded />
+    <Image style={{width:'90%',margin:'5%'}} src="/images/weddings/chacha12.png" rounded />
     </Col>
   </Row>
   <Row>
   <Col>
-  <Image style={{width:'90%',marginLeft:'5%',marginRiht:'5%'}} src="/images/weddings/socials.png" rounded />
+  <h5 style={{fontWeight:'bolder',marginBottom:'5%',marginTop:'5%',textTransform:'uppercase',textAlign:'center'}}><strong>contact us for these and more</strong></h5>
     </Col>
   </Row>
 </Container>
