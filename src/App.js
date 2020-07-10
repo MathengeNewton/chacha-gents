@@ -21,33 +21,15 @@ function App() {
     <Topnav /> 
       <Router>
         <Switch>
-          <Route path="/" exact>
-            <Home />
-          </Route>
-          <Route path="/suits" exact>
-            <Suits />
-          </Route>
-          <Route path="/shoes" exact>
-            <Shoes />
-          </Route>
-          <Route path="/shirts" exact>
-            <Shirts />
-          </Route>
-          <Route path="/jackets" exact>
-            <Jackets />
-          </Route>
-          <Route path="/accesories" exact>
-            <Accesories />
-          </Route>
-          <Route path="/casual wear" exact>
-            <Casual />
-          </Route>
-          <Route path="/contacts" exact>
-            <ContactPage />
-          </Route>
-          <Route path="/wedding wear" exact>
-            <Weddings />
-          </Route>
+          <Route path="/" exact component={Home} />
+          <Route path="/suits" exact component={Suits} />
+          <Route path="/shoes" exact component={Shoes} />
+          <Route path="/shirts" exact component={Shirts} />
+          <Route path="/jackets" exact component={Jackets}/>
+          <Route path="/accesories" exact component={Accesories} />
+          <Route path="/casual wear" exact component={Casual} />
+          <Route path="/contacts" exact component={ContactPage} />
+          <Route path="/wedding wear" exact component={Weddings}/>
         </Switch>
         </Router> 
       <Footer />    
