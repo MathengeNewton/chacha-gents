@@ -1,148 +1,60 @@
 import React from "react";
-import './shoes.css'
-import {  MDBRow, MDBCol, MDBCardBody, MDBBtn, MDBView, MDBMask,MDBCard } from "mdbreact";
+import Container from 'react-bootstrap/Container'
+import Image from 'react-bootstrap/Image'
+import Col from 'react-bootstrap/Col'
+// import {  MDBRow, MDBCol, MDBCard } from "mdbreact";
+import Row from 'react-bootstrap/Row'
+// import Carousel from '../shopsection/section'
+// import { AiOutlineMail, AiOutlinePhone } from 'react-icons/ai'
+// import { GoLocation } from 'react-icons/go'
 
 const Shoes = () => {
   return (
-    <section className="text-center my-5" style={{width:'90%',margin:'5%'}}>
-        <h2 className="h1-responsive font-weight-bold my-5">
-          Shoes
-        </h2>
-        <MDBRow className="d-flex justify-content-center">
-          <MDBCol md="6" xl="5" className="mb-4">
-            <MDBView className="overlay rounded z-depth-2" waves>
-              <img
-                src="/images/shoes/shoes.jpg"
-                alt=""
-                className="img-fluid"
-              />
-              <a href="#!">
-                <MDBMask overlay="white-slight" />
-              </a>
-            </MDBView>
-            <MDBCardBody className="pb-0">                
-              <MDBBtn color="success" rounded>
-                MDBView more
-              </MDBBtn>
-            </MDBCardBody>
-          </MDBCol>
-          <MDBCol md="6" xl="5" className="mb-4">
-            <MDBView className="overlay rounded z-depth-2" waves>
-              <img
-                src="/images/shoes/shoes3.jpg"
-                alt=""
-                className="img-fluid"
-              />
-            </MDBView>
-            <MDBCardBody className="pb-0">
-              <MDBBtn color="success" rounded>
-                MDBView more
-              </MDBBtn>
-            </MDBCardBody>
-          </MDBCol>
-          <MDBCol md="6" xl="5" className="mb-4">
-            <MDBView className="overlay rounded z-depth-2" waves>
-              <img
-                src="/images/shoes/shoes6.jpg"
-                alt=""
-                className="img-fluid"
-              />
-            </MDBView>
-            <MDBCardBody className="pb-0">
-              <MDBBtn color="success" rounded>
-                MDBView more
-              </MDBBtn>
-            </MDBCardBody>
-          </MDBCol>
-          <MDBCol md="6" xl="5" className="mb-4">
-            <MDBView className="overlay rounded z-depth-2" waves>
-              <img
-                src="/images/shoes/shoes8.jpg"
-                alt=""
-                className="img-fluid"
-              />
-            </MDBView>
-            <MDBCardBody className="pb-0">
-              <MDBBtn color="success" rounded>
-                MDBView more
-              </MDBBtn>
-            </MDBCardBody>
-          </MDBCol>
-          <section className='text-center my-5'style={{width:'96%',marginLeft:'2%',marginRight:'2%'}}>
-       <MDBRow>
-        <MDBCol md='12' className='mb-4'>
-          <MDBCard
-            className='card-ig'            
-          >
-            <div className='text-white text-center d-flex flex-column align-items-center rgba-black-strong py-5 px-4 rounded'>
-              <h6 className='purple-text'>
-              </h6>
-              <h3 className='py-3 font-weight-bold'>
-                <strong>WE OFFER THE BEST SHOE QUALITY AVAILABLE IN THE COUNTRY</strong>
-              </h3>
-            </div>
-          </MDBCard>
-        </MDBCol>
-        </MDBRow>
-        </section>
-        <MDBCol md="6" xl="5" className="mb-4">
-            <MDBView className="overlay rounded z-depth-2" waves>
-              <img
-                src="/images/shoes/shoes1.jpg"
-                alt=""
-                className="img-fluid"
-              />
-            </MDBView>
-            <MDBCardBody className="pb-0">
-              <MDBBtn color="success" rounded>
-                MDBView more
-              </MDBBtn>
-            </MDBCardBody>
-          </MDBCol>
-          <MDBCol md="6" xl="5" className="mb-4">
-            <MDBView className="overlay rounded z-depth-2" waves>
-              <img
-                src="/images/shoes/shoes4.jpg"
-                alt=""
-                className="img-fluid"
-              />
-            </MDBView>
-            <MDBCardBody className="pb-0">
-              <MDBBtn color="success" rounded>
-                MDBView more
-              </MDBBtn>
-            </MDBCardBody>
-          </MDBCol>
-          <MDBCol md="6" xl="5" className="mb-4">
-            <MDBView className="overlay rounded z-depth-2" waves>
-              <img
-                src="/images/shoes/shoes5.jpg"
-                alt=""
-                className="img-fluid"
-              />
-            </MDBView>
-            <MDBCardBody className="pb-0">
-              <MDBBtn color="success" rounded>
-                MDBView more
-              </MDBBtn>
-            </MDBCardBody>
-          </MDBCol>
-          <MDBCol md="6" xl="5" className="mb-4">
-            <MDBView className="overlay rounded z-depth-2" waves>
-              <img
-                src="/images/shoes/shoes2.jpg"
-                alt=""
-                className="img-fluid"
-              />
-            </MDBView>
-            <MDBCardBody className="pb-0">
-              <MDBBtn color="success" rounded>
-                MDBView more
-              </MDBBtn>
-            </MDBCardBody>
-          </MDBCol>
-        </MDBRow>
-      </section>
+    <>   
+      <Container style={{width:'100%'}}>
+  <Row>
+    <Col xs={6} md={4}>
+      <Image  style={{width:'98%',margin:'1%'}} src="/images/weddings/1.png" thumbnail />
+    </Col>
+    <Col xs={6} md={4}>
+      <Image  style={{width:'98%',margin:'1%'}} src="/images/weddings/2.png" thumbnail />
+    </Col>
+    <Col xs={6} md={4}>
+      <Image  style={{width:'98%',margin:'1%'}} src="/images/weddings/3.png" thumbnail />
+    </Col>
+    <Col xs={6} md={4}>
+      <Image  style={{width:'98%',margin:'1%'}} src="/images/weddings/4.png" thumbnail />
+    </Col>
+    <Col xs={6} md={4}>
+      <Image  style={{width:'98%',margin:'1%'}} src="/images/weddings/5.png" thumbnail />
+    </Col>
+    <Col xs={6} md={4}>
+      <Image  style={{width:'98%',margin:'1%'}} src="/images/weddings/6.png" thumbnail />
+    </Col>
+    </Row>
+    <Row>
+    <Col xs={6} md={4}>
+      <Image style={{width:'90%',margin:'5%'}}src="/images/weddings/11.jpg"  thumbnail />
+    </Col>
+    <Col xs={6} md={4}>
+      <Image style={{width:'90%',margin:'5%'}} src="/images/weddings/7.png" thumbnail />
+    </Col>
+    <Col xs={6} md={4}>
+      <Image style={{width:'90%',margin:'5%'}} src="/images/weddings/8.png" thumbnail />
+    </Col>
+    </Row>
+    <Row>
+    <Col>
+    <Image style={{width:'90%',margin:'5%'}} src="/images/weddings/chacha12.png" rounded />
+    </Col>
+  </Row>
+  <Row>
+  <Col>
+  <h5 style={{fontWeight:'bolder',marginBottom:'5%',marginTop:'5%',textTransform:'uppercase',textAlign:'center'}}><strong>contact us for these and more</strong></h5>
+    </Col>
+  </Row>
+</Container>
+      </>
   );
 }
 

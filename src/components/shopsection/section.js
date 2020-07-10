@@ -2,14 +2,14 @@ import React from "react";
 import { MDBCarousel, MDBCarouselInner, MDBCarouselItem, MDBView, MDBContainer } from
 "mdbreact";
 
-const Carousel = ({src}) => {
+const Carousel = ({src1,src2}) => {
   return (
     <MDBContainer>
       <MDBCarousel
         activeItem={1}
-        length={1}
+        length={2}
         showControls={false}
-        showIndicators={false}
+        showIndicators={true}
         className="z-depth-1"
         slide
       >
@@ -18,11 +18,20 @@ const Carousel = ({src}) => {
             <MDBView>
               <img
                 className="d-block w-100"
-                src={src}
+                src={src1}
                 alt="First slide"
               />
             </MDBView>
-          </MDBCarouselItem>     
+          </MDBCarouselItem>   
+          <MDBCarouselItem itemId="2">
+            <MDBView>
+              <img
+                className="d-block w-100"
+                src={src2}
+                alt="First slide"
+              />
+            </MDBView>
+          </MDBCarouselItem>   
         </MDBCarouselInner>
       </MDBCarousel>
     </MDBContainer>

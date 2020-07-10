@@ -8,7 +8,9 @@ import Suits from './components/suits/suits';
 import Shoes from './components/shoes/shoes';
 import Accesories from './components/accesories/accesories';
 import Casual from './components/casual/casual';
+import Jackets from './components/jackets/jackets'
 import Weddings from './components/weddings/weddings'
+import Shirts from './components/shirts/shirts'
 import ContactPage from './components/contactpage/contacts';
 import {BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -27,6 +29,12 @@ function App() {
           </Route>
           <Route path="/shoes" exact>
             <Shoes />
+          </Route>
+          <Route path="/shirts" exact>
+            <Shirts />
+          </Route>
+          <Route path="/jackets" exact>
+            <Jackets />
           </Route>
           <Route path="/accesories" exact>
             <Accesories />
