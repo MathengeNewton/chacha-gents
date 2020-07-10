@@ -14,38 +14,38 @@ const Shoes = () => {
       <Container style={{width:'100%'}}>
   <Row>
     <Col xs={6} md={4}>
-      <Image  style={{width:'98%',margin:'1%'}} src="/images/weddings/1.png" thumbnail />
+      <Image  style={{width:'98%',margin:'5%'}} src="/images/shoes/1.png" thumbnail />
     </Col>
     <Col xs={6} md={4}>
-      <Image  style={{width:'98%',margin:'1%'}} src="/images/weddings/2.png" thumbnail />
+      <Image  style={{width:'98%',margin:'5%'}} src="/images/shoes/2.png" thumbnail />
     </Col>
     <Col xs={6} md={4}>
-      <Image  style={{width:'98%',margin:'1%'}} src="/images/weddings/3.png" thumbnail />
+      <Image  style={{width:'98%',margin:'5%'}} src="/images/shoes/3.png" thumbnail />
     </Col>
     <Col xs={6} md={4}>
-      <Image  style={{width:'98%',margin:'1%'}} src="/images/weddings/4.png" thumbnail />
+      <Image  style={{width:'98%',margin:'5%'}} src="/images/shoes/4.png" thumbnail />
     </Col>
     <Col xs={6} md={4}>
-      <Image  style={{width:'98%',margin:'1%'}} src="/images/weddings/5.png" thumbnail />
+      <Image  style={{width:'98%',margin:'5%'}} src="/images/shoes/5.png" thumbnail />
     </Col>
     <Col xs={6} md={4}>
-      <Image  style={{width:'98%',margin:'1%'}} src="/images/weddings/6.png" thumbnail />
+      <Image  style={{width:'98%',margin:'5%'}} src="/images/shoes/6.png" thumbnail />
     </Col>
     </Row>
     <Row>
     <Col xs={6} md={4}>
-      <Image style={{width:'90%',margin:'5%'}}src="/images/weddings/11.jpg"  thumbnail />
+      <Image style={{width:'90%',margin:'5%'}}src="/images/shoes/9.png"  thumbnail />
     </Col>
     <Col xs={6} md={4}>
-      <Image style={{width:'90%',margin:'5%'}} src="/images/weddings/7.png" thumbnail />
+      <Image style={{width:'90%',margin:'5%'}} src="/images/shoes/10.png" thumbnail />
     </Col>
     <Col xs={6} md={4}>
-      <Image style={{width:'90%',margin:'5%'}} src="/images/weddings/8.png" thumbnail />
+      <Image style={{width:'90%',margin:'5%'}} src="/images/shoes/8.png" thumbnail />
     </Col>
     </Row>
     <Row>
     <Col>
-    <Image style={{width:'90%',margin:'5%'}} src="/images/weddings/chacha12.png" rounded />
+    <Image style={{width:'90%',margin:'5%'}} src="/images/shoes/CHACHA.png" rounded />
     </Col>
   </Row>
   <Row>

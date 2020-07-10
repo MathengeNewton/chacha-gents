@@ -30,7 +30,7 @@ return(
       <NavDropdown title="Other Categories" id="collasible-nav-dropdown">
         <NavDropdown.Item href="/jackets">Jackets</NavDropdown.Item>
         <NavDropdown.Divider />
-        <NavDropdown.Item href="/accesories">Shirts</NavDropdown.Item>
+        <NavDropdown.Item href="/shirts">Shirts</NavDropdown.Item>
         <NavDropdown.Divider />
         <NavDropdown.Item href="/shoes">Shoes</NavDropdown.Item>
         <NavDropdown.Divider />

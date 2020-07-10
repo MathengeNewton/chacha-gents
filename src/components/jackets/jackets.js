@@ -12,38 +12,28 @@ import Row from 'react-bootstrap/Row'
 const Jackets = () => {
   return (
     <>   
-      <Container style={{width:'100%'}}>
+      <Container style={{width:'100%',padding:'5%'}}>
   <Row>
     <Col xs={6} md={4}>
-      <Image  style={{width:'98%',margin:'1%'}} src="/images/jackets/j1.png" thumbnail />
+      <Image  style={{width:'98%',margin:'5%'}} src="/images/jackets/j10.png" thumbnail />
     </Col>
     <Col xs={6} md={4}>
-      <Image  style={{width:'98%',margin:'1%'}} src="/images/jackets/j2.png" thumbnail />
+      <Image  style={{width:'98%',margin:'5%'}} src="/images/jackets/j5.png" thumbnail />
     </Col>
     <Col xs={6} md={4}>
-      <Image  style={{width:'98%',margin:'1%'}} src="/images/jackets/j3.png" thumbnail />
+      <Image  style={{width:'98%',margin:'5%'}} src="/images/jackets/j6.png" thumbnail />
     </Col>
     <Col xs={6} md={4}>
-      <Image  style={{width:'98%',margin:'1%'}} src="/images/jackets/j4.png" thumbnail />
+      <Image  style={{width:'98%',margin:'5%'}} src="/images/jackets/j7.png" thumbnail />
     </Col>
     <Col xs={6} md={4}>
-      <Image  style={{width:'98%',margin:'1%'}} src="/images/jackets/j5.png" thumbnail />
+      <Image  style={{width:'98%',margin:'5%'}} src="/images/jackets/j8.png" thumbnail />
     </Col>
     <Col xs={6} md={4}>
-      <Image  style={{width:'98%',margin:'1%'}} src="/images/jackets/j6.jpg" thumbnail />
+      <Image  style={{width:'98%',margin:'5%'}} src="/images/jackets/j9.png" thumbnail />
     </Col>
-    </Row>
-    <Row>
-    <Col xs={6} md={4}>
-      <Image style={{width:'90%',margin:'5%'}}src="/images/jackets/j16.jpg"  thumbnail />
-    </Col>
-    <Col xs={6} md={4}>
-      <Image style={{width:'90%',margin:'5%'}} src="/images/weddings/7.png" thumbnail />
-    </Col>
-    <Col xs={6} md={4}>
-      <Image style={{width:'90%',margin:'5%'}} src="/images/weddings/8.png" thumbnail />
-    </Col>
-    </Row>
+    
+    </Row>    
     <Row>
     <Col>
     <Slider src1="/images/jackets/j3.png" src2 = "/images/jackets/j1.png" />

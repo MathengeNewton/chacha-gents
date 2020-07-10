@@ -38,6 +38,11 @@ const Casual = () => {
     <Col xs={6} md={4}>
       <Image style={{width:'90%',margin:'5%'}} src="/images/suits/j8.png" thumbnail />
     </Col>
+    <Row>
+    <Col>
+      <Image style={{width:'90%',margin:'5%'}} src="/images/suits/CHACHA.png" rounded />
+    </Col>
+  </Row>
     </Row>   
     <h5 style={{fontWeight:'bolder',marginBottom:'5%',marginTop:'5%',textTransform:'uppercase'}}><strong>contact us for these and more</strong></h5>
      
