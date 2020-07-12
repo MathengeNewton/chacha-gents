@@ -2,11 +2,8 @@ import React from "react";
 import Container from 'react-bootstrap/Container'
 import Image from 'react-bootstrap/Image'
 import Col from 'react-bootstrap/Col'
-// import {  MDBRow, MDBCol, MDBCard } from "mdbreact";
 import Row from 'react-bootstrap/Row'
-// import Carousel from '../shopsection/section'
-// import { AiOutlineMail, AiOutlinePhone } from 'react-icons/ai'
-// import { GoLocation } from 'react-icons/go'
+
 
 const Shoes = () => {
   return (
