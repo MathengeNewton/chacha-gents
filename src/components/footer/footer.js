@@ -40,22 +40,22 @@ let Footer =()=>{
         <Card style={{ width: '18rem' }}>
             <Card.Header>Help Center</Card.Header>
                 <ListGroup variant="flush">
-                    <a href="/terms" style={link}><ListGroup.Item>Terms & Conditions</ListGroup.Item></a>
-                    <a href="/salespolicies" style={link}><ListGroup.Item>Sales policies</ListGroup.Item></a>
-                    <a href="/returnspolicies" style={link}><ListGroup.Item>Return policies</ListGroup.Item></a>
-                    <a href="/help" style={link}><ListGroup.Item>Ask for help</ListGroup.Item></a>
-                    <a href="/feedback" style={link}><ListGroup.Item>Feedback</ListGroup.Item></a>
+                    <a href="/" style={link}><ListGroup.Item>Terms & Conditions</ListGroup.Item></a>
+                    <a href="/" style={link}><ListGroup.Item>Sales policies</ListGroup.Item></a>
+                    <a href="/" style={link}><ListGroup.Item>Return policies</ListGroup.Item></a>
+                    <a href="/" style={link}><ListGroup.Item>Ask for help</ListGroup.Item></a>
+                    <a href="/" style={link}><ListGroup.Item>Feedback</ListGroup.Item></a>
                 </ListGroup>
         </Card>
         
         <Card style={{ width: '18rem' }}>
             <Card.Header>Extras</Card.Header>
                 <ListGroup variant="flush">
-                <a href="/terms" style={link}><ListGroup.Item>Best Brands</ListGroup.Item></a>
-                <a href="/terms" style={link}><ListGroup.Item>Gift items</ListGroup.Item></a>
-                <a href="/terms" style={link}><ListGroup.Item>sweet Offers</ListGroup.Item></a>
-                <a href="/terms" style={link}><ListGroup.Item>Get your fit</ListGroup.Item></a>
-                <a href="/terms" style={link}><ListGroup.Item>Newest staff</ListGroup.Item></a>
+                <a href="/" style={link}><ListGroup.Item>Best Brands</ListGroup.Item></a>
+                <a href="/" style={link}><ListGroup.Item>Gift items</ListGroup.Item></a>
+                <a href="/" style={link}><ListGroup.Item>sweet Offers</ListGroup.Item></a>
+                <a href="/" style={link}><ListGroup.Item>Get your fit</ListGroup.Item></a>
+                <a href="/" style={link}><ListGroup.Item>Newest staff</ListGroup.Item></a>
             </ListGroup>
         </Card>
        
